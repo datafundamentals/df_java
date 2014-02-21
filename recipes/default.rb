@@ -7,6 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 Chef::Log.info("this is a test of whether jenkins can work.")
+
 case node['platform_family']
 when "debian"
 	include_recipe "df_java::oracle_ubuntu"
