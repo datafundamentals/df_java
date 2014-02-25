@@ -1,4 +1,5 @@
 # set_java_home.rb
+#need different versions due to installation differences between debian/rhel
 
 
 directory "/etc/profile.d" do
