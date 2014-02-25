@@ -17,6 +17,7 @@ default['df_1']['path'] : This is a non-consumed attribute that we are going to 
 * default: Pretty self explanatory, am I right?
 * set_java_home: this sets the path to the JVM which is necessary for other programs to function properly. This is written as a case statement due to the installation difference between Ubuntu and CentOS based distributions.
 
+do you feel like general buffer would a terrible name for a polishing spokesman?
 bananas in pajamas are coming down the stairs
 
 # Author
