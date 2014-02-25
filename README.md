@@ -11,7 +11,7 @@ This is only tested on the following Operating systems, so there is no guarantee
 This cookbook is consumed by instances that use the java to perform various functions. In this case it is just about everything in the world.
 
 # Attributes
-default['df_1']['path'] : This is a non-consumed attribute that we are going to keep to modify the cookbook as soon as we figure out the bug.
+default['df_1']['path'] : This is a non-consumed attribute that we are going to keep to modify the cookbook as soon as we figure out the bug. At this point due to the modularity for the cookbook, this is going to be designed as a placeholder until we figure out a better approach.
 # Recipes
 
 * default: Pretty self explanatory, am I right?
