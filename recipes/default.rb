@@ -6,10 +6,6 @@
 # 
 # All rights reserved - Do Not Redistribute
 #
-Chef::Log.info("this is a test of whether jenkins can work.")
-Chef::Log.info("Don't forget to bring a towel")
-Chef::Log.info(" I HAVE NO IDEA WHATS GOING ON")
-
 
 case node['platform_family']
 when "debian"
