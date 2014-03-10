@@ -4,6 +4,8 @@ this cookbook writes a recipe for local installation of Oracle based Java for th
 # Requirements
 This is only tested on the following Operating systems, so there is no guarantee that it works for others. Odds are it is pretty universally translatable.
 
+**NOTE** Please look at the .kitchen.yml file and adjust the synced folder from what we have run or it won't work
+
 * CentOS 6.4, 6.5
 * Ubuntu 12.04
 
