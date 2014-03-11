@@ -20,7 +20,7 @@ action :create
 end
 
 when "rhel"
-  file "/etc/profile/java.sh" do 
+  file "/etc/profile.d/java.sh" do 
 user "root" 
 group "root"
 mode "0755"
@@ -31,4 +31,3 @@ export PATH"
 action :create
 end
 end
-
