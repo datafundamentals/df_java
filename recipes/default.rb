@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: df_1
+# Cookbook Name:: df_java
 # Recipe:: default
 #
 # Copyright (C) 2014 YOUR_NAME
