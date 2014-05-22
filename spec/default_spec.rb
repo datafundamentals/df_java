@@ -1,4 +1,4 @@
-require 'chefspec'
+require 'spec_helper'
 
 describe "df_java::default" do 
   let(:chef_run) { ChefSpec::Runner.new.converge('df_java::default')}
