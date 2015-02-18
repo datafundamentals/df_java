@@ -13,7 +13,7 @@ when "debian"
 else
 include_recipe "df_java::set_java_home"
 package "jdk-7u51-linux-x64" do 
-	source "/vagrant/binaries/jdk-7u51-linux-x64.rpm"
+	source "http://docs.datafundamentals.com/lib/jdk-8u31-linux-x64.gz"
 	action :install
 end
 end

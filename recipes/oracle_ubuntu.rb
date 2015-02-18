@@ -12,7 +12,9 @@ end
 remote_file "/usr/local/java/jdk-7u51-linux-x64.gz" do
 owner "root"
 group "root" 
-source "file:///vagrant/binaries/jdk-7u51-linux-x64.gz"
+# source "file:///vagrant/binaries/jdk-7u51-linux-x64.gz"
+# source "http://docs.datafundamentals.com/lib/jdk-8u31-linux-x64.gz"
+source "http://docs.datafundamentals.com/lib/jdk-7u51-linux-x64.gz"
 mode "0777" 
 action :create_if_missing
 end
